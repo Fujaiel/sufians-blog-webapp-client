@@ -1,29 +1,45 @@
-import { useLocation, useRoutes } from "react-router-dom";
+// import { useLocation, useRoutes } from "react-router-dom";
 
-import Home from "./scenes/Home/Home.tsx";
+import SignUp from "./scenes/auth/SignUp"
+
+// import Home from "./scenes/Home/Home.tsx";
+
+// const App = () => {
+//   const location = useLocation();
+
+//   const routes = useRoutes([
+//     {
+//       path: "/signup",
+//       // element: <Signup />,
+//     },
+//     {
+//       path: "/login",
+//       // element: <Login />,
+//     },
+//     {
+//       path: "/",
+//       element: <Home />,
+//     },
+//   ]);
+
+//   if (location.pathname === "/signup" || location.pathname === "/login") {
+//     return routes;
+//   }
+//   return <div className="w-screen">{routes}</div>;
+// };
+
+// export default App;
+
+
 
 const App = () => {
-  const location = useLocation();
+  return (
+    <>
 
-  const routes = useRoutes([
-    {
-      path: "/signup",
-      // element: <Signup />,
-    },
-    {
-      path: "/login",
-      // element: <Login />,
-    },
-    {
-      path: "/",
-      element: <Home />,
-    },
-  ]);
 
-  if (location.pathname === "/signup" || location.pathname === "/login") {
-    return routes;
-  }
-  return <div className="w-screen">{routes}</div>;
-};
+     <SignUp />
+    </>
+  )
+}
 
-export default App;
+export default App
