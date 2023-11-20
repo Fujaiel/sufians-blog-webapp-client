@@ -1,7 +1,7 @@
 import { IoMdMail } from "react-icons/io";
 import { IoMdUnlock } from "react-icons/io";
 import { IoLogoGoogle } from "react-icons/io5";
-
+import { IoEyeOffSharp } from "react-icons/io5";
 const SignUp = () => {
   return (
     <>
@@ -44,6 +44,10 @@ const SignUp = () => {
                 <div className="absolute inset-y-0 left-0 flex items-center pl-2">
                   <IoMdUnlock />
                 </div>
+                <div className="absolute inset-y-0 right-0 flex items-center pr-2">
+                  <IoEyeOffSharp />
+                </div>
+
               </div>
               {/* signup button */}
               <button
