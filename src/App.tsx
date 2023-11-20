@@ -2,6 +2,7 @@
 
 import SignIn from "./scenes/auth/SignIn"
 import SignUp from "./scenes/auth/SignUp"
+import Nav from "./scenes/components/common/Nav"
 
 // import Home from "./scenes/Home/Home.tsx";
 
@@ -36,8 +37,10 @@ import SignUp from "./scenes/auth/SignUp"
 const App = () => {
   return (
     <>
-     <SignUp />
-     <SignIn />
+     {/* <SignUp />
+     <SignIn /> */}
+
+     <Nav />
 
     </>
   )
