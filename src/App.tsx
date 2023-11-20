@@ -1,5 +1,6 @@
 // import { useLocation, useRoutes } from "react-router-dom";
 
+import SignIn from "./scenes/auth/SignIn"
 import SignUp from "./scenes/auth/SignUp"
 
 // import Home from "./scenes/Home/Home.tsx";
@@ -35,9 +36,9 @@ import SignUp from "./scenes/auth/SignUp"
 const App = () => {
   return (
     <>
-
-
      <SignUp />
+     <SignIn />
+
     </>
   )
 }
