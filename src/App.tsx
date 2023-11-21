@@ -44,7 +44,8 @@ const App = () => {
 
      {/* <SignUp />
      <SignIn /> */}
-     {/* <CreateBlog /> */}
+
+     <CreateBlog />
      <MainCard />
 
      <Footer />
