@@ -4,6 +4,7 @@ import SignIn from "./scenes/auth/SignIn"
 import SignUp from "./scenes/auth/SignUp"
 import Footer from "./scenes/components/common/Footer"
 import Nav from "./scenes/components/common/Nav"
+import MainCard from "./scenes/components/common/cards/MainCard"
 import CreateBlog from "./scenes/createBlog/CreateBlog"
 
 // import Home from "./scenes/Home/Home.tsx";
@@ -43,7 +44,8 @@ const App = () => {
 
      {/* <SignUp />
      <SignIn /> */}
-     <CreateBlog />
+     {/* <CreateBlog /> */}
+     <MainCard />
 
      <Footer />
     </>
