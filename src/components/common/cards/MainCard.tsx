@@ -1,5 +1,5 @@
-import { thumb1 } from "../../../../assets/images/images";
-import { Profile1 } from "../../../../assets/svgs/svg";
+import { thumb1 } from "../../../assets/images/images";
+import { Profile1 } from "../../../assets/svgs/svg";
 import { IoShareOutline } from "react-icons/io5";
 import { MdOutlineBookmarkAdd } from "react-icons/md";
 

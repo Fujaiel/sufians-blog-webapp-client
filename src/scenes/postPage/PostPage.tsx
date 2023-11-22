@@ -3,7 +3,8 @@ import { FaRegHeart } from "react-icons/fa";
 import { IoShareOutline } from "react-icons/io5";
 import { MdOutlineBookmarkAdd } from "react-icons/md";
 import { Advertisement1, Bigthumb1 } from "../../assets/images/images";
-import SmallCard from "../components/common/cards/SmallCard";
+import SmallCard from "../../components/common/cards/SmallCard";
+// import SmallCard from "../../components/common/cards/SmallCard";
 
 const PostPage = () => {
   return (

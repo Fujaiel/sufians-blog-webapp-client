@@ -1,4 +1,4 @@
-import { CuriousLogo } from "../../../assets/svgs/svg";
+import { CuriousLogo } from "../../assets/svgs/svg";
 import { IoSearchOutline } from "react-icons/io5";
 import { BsPencilFill } from "react-icons/bs";
 import { LuMoonStar } from "react-icons/lu";

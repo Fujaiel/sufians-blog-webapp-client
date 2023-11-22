@@ -1,4 +1,4 @@
-import { CuriousLogo } from "../../../assets/svgs/svg";
+import { CuriousLogo } from "../../assets/svgs/svg";
 import { FaTwitter, FaFacebook } from "react-icons/fa";
 import { RiWhatsappFill } from "react-icons/ri";
 

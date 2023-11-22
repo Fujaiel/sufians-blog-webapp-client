@@ -1,4 +1,4 @@
-import { Profile2 } from "../../../../assets/svgs/svg"
+import { Profile2 } from "../../../assets/svgs/svg"
 import { IoShareOutline } from "react-icons/io5";
 // import {format} from 'date-fns'
 
