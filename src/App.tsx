@@ -5,6 +5,7 @@ import SignUp from "./scenes/auth/SignUp"
 import Footer from "./scenes/components/common/Footer"
 import Nav from "./scenes/components/common/Nav"
 import MainCard from "./scenes/components/common/cards/MainCard"
+import NewsLetter from "./scenes/components/common/cards/NewsLetter"
 import SmallCard from "./scenes/components/common/cards/SmallCard"
 import CreateBlog from "./scenes/createBlog/CreateBlog"
 
@@ -48,7 +49,9 @@ const App = () => {
 
      {/* <CreateBlog /> */}
      {/* <MainCard /> */}
-     <SmallCard />
+     {/* <SmallCard /> */}
+     <NewsLetter />
+
      <Footer />
     </>
   )
