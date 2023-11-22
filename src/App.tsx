@@ -8,6 +8,7 @@ import MainCard from "./scenes/components/common/cards/MainCard"
 import NewsLetter from "./scenes/components/common/cards/NewsLetter"
 import SmallCard from "./scenes/components/common/cards/SmallCard"
 import CreateBlog from "./scenes/createBlog/CreateBlog"
+import PostPage from "./scenes/postPage/PostPage"
 
 // import Home from "./scenes/Home/Home.tsx";
 
@@ -50,7 +51,9 @@ const App = () => {
      {/* <CreateBlog /> */}
      {/* <MainCard /> */}
      {/* <SmallCard /> */}
-     <NewsLetter />
+     {/* <NewsLetter /> */}
+
+     <PostPage />
 
      <Footer />
     </>
